@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="495.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.customer.CustomerTicketController">
+   <children>
+      <Label id="ticket-header" alignment="CENTER" contentDisplay="CENTER" layoutX="143.0" prefHeight="59.0" prefWidth="675.0" text="Your eTicket" textFill="#f5f4f4" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Helvetica Neue" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="90.0" text="Cinema name:">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="340.0" text="Seats:">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="380.0" text="Price:">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font></Label>
+      <ImageView fx:id="imageQRCode" fitHeight="198.0" fitWidth="179.0" layoutX="158.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="158.0" AnchorPane.rightAnchor="158.0">
+      </ImageView>
+      <Label layoutX="34.0" layoutY="130.0" text="Address:">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="220.0" text="Movie name:">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="260.0" text="Screening date:">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="300.0" text="Screening time:">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="420.0" text="Booking ID:">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Separator layoutX="34.0" layoutY="201.0" prefHeight="4.0" prefWidth="423.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" />
+      <Label layoutX="163.0" layoutY="83.0" prefHeight="34.0" prefWidth="305.0" text="JavaCinema" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="127.0" prefHeight="34.0" prefWidth="216.0" text="5 Baker Street" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMovieName" layoutX="163.0" layoutY="215.0" prefHeight="34.0" prefWidth="192.0" text="XX" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDate" layoutX="163.0" layoutY="255.0" prefHeight="34.0" prefWidth="216.0" text="XX" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime" layoutX="163.0" layoutY="295.0" prefHeight="34.0" prefWidth="118.0" text="XX" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSeats" layoutX="163.0" layoutY="335.0" prefHeight="34.0" prefWidth="167.0" text="XX" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice" layoutX="163.0" layoutY="375.0" prefHeight="34.0" prefWidth="150.0" text="XX" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBookingID" layoutX="163.0" layoutY="415.0" prefHeight="34.0" prefWidth="159.0" text="XX" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="159.0" prefHeight="34.0" prefWidth="216.0" text="NW1 3LN London" AnchorPane.leftAnchor="163.0" AnchorPane.rightAnchor="27.0">
+         <font>
+            <Font name="Helvetica Neue" size="17.0" />
+         </font>
+      </Label>
+      <Pane layoutY="631.0" prefHeight="74.0" prefWidth="495.0" style="-fx-background-color: #BCBDC0;" BorderPane.alignment="CENTER" />
+      <ImageView fx:id="imageLogo" fitHeight="52.0" fitWidth="48.0" layoutX="224.0" layoutY="643.0" pickOnBounds="true" preserveRatio="true">
+      </ImageView>
+   </children>
+</AnchorPane>

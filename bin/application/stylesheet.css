@@ -1,0 +1,108 @@
+/* -------- General styles ---------- */
+.button, .login-button {
+  -fx-font: 13px "Helvetica";
+  -fx-text-fill: white;
+  -fx-background-color: #3A66AD;
+  -fx-faint-focus-color: black;
+  -fx-background-radius: 0.0;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 5, 0, 0, 1); }
+
+.button:hover, .login-button:hover {
+  -fx-background-color: #4D86E2;
+  -fx-text-fill: white; }
+
+.login-button {
+  -fx-background-color: white;
+  -fx-text-fill: black; }
+
+.button:active, .login-button:active {
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0), 5, 0, 0, 1); }
+
+#btnLogout {
+  -fx-background-color: linear-gradient(#f2f2f2, #d6d6d6), linear-gradient(#fcfcfc 0%, #d9d9d9 20%, #d6d6d6 100%), linear-gradient(#dddddd 0%, #f6f6f6 50%);
+  -fx-background-radius: 8,7,6;
+  -fx-background-insets: 0,1,2;
+  -fx-text-fill: black;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 1); }
+
+#btnLogout:hover {
+  -fx-background-color: #4D86E2; }
+
+.label {
+  -fx-font-background-color: black; }
+
+#rootPane {
+  -fx-background-color: #3A66AD; }
+
+#selection-bar {
+  -fx-background-color: #c4d3df; }
+
+.list-cell:odd {
+  -fx-background-color: #edeff0; }
+
+.list-cell:odd:selected, .combo-box-popup .list-view .list-cell:filled:hover, .list-cell:even:selected {
+  -fx-background-color: #717f8a;
+  -fx-background-insets: 0.0;
+  -fx-background-radius: 1.0; }
+
+.rectangle {
+  -fx-stroke-width: 1; }
+
+#ticket-header {
+  -fx-background-color: #3A66AD; }
+
+/*---------- Tables ------------*/
+/* Column-header-background -> column-header */
+.table-view .filler {
+  -fx-background-color: transparent; }
+
+.table-view {
+  -fx-background-color: transparent; }
+
+.table-view:focused {
+  -fx-background-color: transparent; }
+
+.table-view .column-header-background {
+  -fx-background-color: #3A66AD; }
+
+.table-view .column-header-background .label {
+  -fx-background-color: transparent;
+  -fx-text-fill: white; }
+
+.table-view .table-cell {
+  -fx-text-fill: black; }
+
+.table-row-cell:odd {
+  -fx-background-color: -fx-table-cell-border-color, #EDEFF1; }
+
+.table-row-cell:selected {
+  -fx-background-color: #c4d3df;
+  -fx-background-insets: 0.0;
+  -fx-background-radius: 1.0;
+  -fx-text-fill: black; }
+
+.table-view .filler {
+  -fx-background-color: transparent; }
+
+.table-view .column-header {
+  -fx-background-color: transparent; }
+
+.table-view .arrow {
+  -fx-background-color: white; }
+
+/*---------- Employee Views -----------*/
+.data0.chart-pie {
+  -fx-pie-color: #ACCBE1; }
+
+.data1.chart-pie {
+  -fx-pie-color: #CEE5F2; }
+
+/*---------- Customer Views -----------*/
+#anchorProgramme:hover, #anchorProfile:hover {
+  -fx-background-color: #3A66AD;
+  -fx-text-fill: black; }
+
+.priceseparator {
+  -fx-border-color: black; }
+
+/*# sourceMappingURL=stylesheet.css.map */

@@ -1,2 +1,3 @@
-# JavaFX_Cinema
-A cinema booking system coded in JavaFx
+# GC01 Cinema Coursework
+
+### By Christina Kronser and Paul Venhaus

@@ -1,0 +1,422 @@
+Jan 23, 2018 6:33:29 PM application.MainApp showLogin
+INFO: Showing Login
+Jan 23, 2018 6:35:38 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:35:38 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:35:38 PM helpers.DBHelper dbExecuteUpdate
+WARNING: Problem occurred at executeUpdate operation : org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: accounts.username)
+Jan 23, 2018 6:35:38 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:35:38 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:35:38 PM helpers.DBHelper dbExecuteUpdate
+WARNING: Problem occurred at executeUpdate operation : org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: customers.username)
+Jan 23, 2018 6:35:46 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:35:46 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:35:46 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM accounts WHERE username='Christina'
+Jan 23, 2018 6:35:46 PM controllers.shared.LoginController login
+WARNING: User Christina tried to log in with password passwordand failed.
+Jan 23, 2018 6:35:50 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:35:50 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:35:50 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM accounts WHERE username='Christina'
+Jan 23, 2018 6:35:50 PM controllers.shared.LoginController login
+WARNING: User Christina tried to log in with password passwordand failed.
+Jan 23, 2018 6:36:13 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:13 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:13 PM helpers.DBHelper dbExecuteUpdate
+WARNING: Problem occurred at executeUpdate operation : org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: accounts.username)
+Jan 23, 2018 6:36:13 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:13 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:13 PM helpers.DBHelper dbExecuteUpdate
+WARNING: Problem occurred at executeUpdate operation : org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY]  A PRIMARY KEY constraint failed (UNIQUE constraint failed: customers.username)
+Jan 23, 2018 6:36:15 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:15 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:15 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM accounts WHERE username='Christina'
+Jan 23, 2018 6:36:15 PM controllers.shared.LoginController login
+WARNING: User Christina tried to log in with password passwordand failed.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM accounts WHERE username='Christina'
+Jan 23, 2018 6:36:23 PM application.MainApp showCustomerRoot
+INFO: Showing primaryStage with CustomerRoot
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=1
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=2
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=5
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=9
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=8
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=6
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=4
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=7
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=10
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=1
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=6
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=8
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=10
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=5
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:23 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=9
+Jan 23, 2018 6:36:23 PM application.MainApp showCustomerProgramme
+INFO: Showing Customer Programme
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM customers WHERE username = 'Christina'
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM bookings WHERE username = 'Christina'
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=2
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=1
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=2
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=1
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=3
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=2
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=3
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=2
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=4
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=5
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=4
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=5
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=5
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=9
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=5
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=9
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=8
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=4
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=8
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=4
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=7
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=6
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=7
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=6
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=6
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=8
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=6
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=8
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=9
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=7
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=9
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=7
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=13
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=8
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=13
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=8
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=12
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=6
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM screenings WHERE screenID=12
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Oracle JDBC Driver Registered!
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbConnect
+FINE: Connection to SQLite has been established.
+Jan 23, 2018 6:36:24 PM helpers.DBHelper dbExecuteQuery
+INFO: Select statement: SELECT * FROM movies WHERE movieID=6
+Jan 23, 2018 6:36:24 PM application.MainApp startAsCustomer
+INFO: Starting the App as Customer
+Jan 23, 2018 6:41:55 PM helpers.QRCodeGenerator createQRImage
+FINE: Created QR Image
+Jan 23, 2018 6:41:55 PM helpers.QRCodeGenerator createQRDetails
+FINE: Created QR Details
+Jan 23, 2018 6:41:55 PM helpers.Helpers openTicketView
+INFO: Showing the customer's ticket
+Jan 23, 2018 6:41:56 PM helpers.Helpers printTicket
+INFO: Showing print dialogue
+Jan 23, 2018 6:42:06 PM helpers.Helpers logout
+INFO: Logged out Christina
+Jan 23, 2018 6:42:06 PM application.MainApp showLogin
+INFO: Showing Login

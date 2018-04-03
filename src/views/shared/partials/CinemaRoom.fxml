@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="511.0" prefWidth="766.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9" fx:controller="controllers.shared.partials.CinemaRoomController">
+   <center>
+      <Pane fx:id="paneSeats" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="36.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="100.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="164.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="228.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="292.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="356.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="420.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="484.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="548.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="612.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="36.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="100.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="164.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="228.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="292.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="356.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="420.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="484.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="548.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="612.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="36.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="100.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="164.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="228.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="292.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="356.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="420.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="484.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="548.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="612.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="36.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="100.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="164.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="228.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="292.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="356.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="420.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="484.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="548.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="612.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="36.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="100.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="164.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="228.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="292.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="356.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="420.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="484.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="548.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="612.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../img/seat/seat.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="63.0" layoutY="83.0" text="1" />
+            <Label layoutX="126.0" layoutY="83.0" text="2" />
+            <Label layoutX="190.0" layoutY="83.0" text="3" />
+            <Label layoutX="254.0" layoutY="83.0" text="4" />
+            <Label layoutX="318.0" layoutY="83.0" text="5" />
+            <Label layoutX="382.0" layoutY="83.0" text="6" />
+            <Label layoutX="446.0" layoutY="83.0" text="7" />
+            <Label layoutX="510.0" layoutY="83.0" text="8" />
+            <Label layoutX="574.0" layoutY="83.0" text="9" />
+            <Label layoutX="638.0" layoutY="83.0" text="10" />
+            <Label layoutX="63.0" layoutY="160.0" text="1" />
+            <Label layoutX="126.0" layoutY="160.0" text="2" />
+            <Label layoutX="190.0" layoutY="160.0" text="3" />
+            <Label layoutX="254.0" layoutY="160.0" text="4" />
+            <Label layoutX="318.0" layoutY="160.0" text="5" />
+            <Label layoutX="382.0" layoutY="160.0" text="6" />
+            <Label layoutX="446.0" layoutY="160.0" text="7" />
+            <Label layoutX="510.0" layoutY="160.0" text="8" />
+            <Label layoutX="574.0" layoutY="160.0" text="9" />
+            <Label layoutX="638.0" layoutY="160.0" text="10" />
+            <Label layoutX="63.0" layoutY="238.0" text="1" />
+            <Label layoutX="126.0" layoutY="238.0" text="2" />
+            <Label layoutX="190.0" layoutY="238.0" text="3" />
+            <Label layoutX="254.0" layoutY="238.0" text="4" />
+            <Label layoutX="318.0" layoutY="238.0" text="5" />
+            <Label layoutX="382.0" layoutY="238.0" text="6" />
+            <Label layoutX="446.0" layoutY="238.0" text="7" />
+            <Label layoutX="510.0" layoutY="238.0" text="8" />
+            <Label layoutX="574.0" layoutY="238.0" text="9" />
+            <Label layoutX="638.0" layoutY="238.0" text="10" />
+            <Label layoutX="63.0" layoutY="323.0" text="1" />
+            <Label layoutX="126.0" layoutY="323.0" text="2" />
+            <Label layoutX="190.0" layoutY="323.0" text="3" />
+            <Label layoutX="254.0" layoutY="323.0" text="4" />
+            <Label layoutX="318.0" layoutY="323.0" text="5" />
+            <Label layoutX="382.0" layoutY="323.0" text="6" />
+            <Label layoutX="446.0" layoutY="323.0" text="7" />
+            <Label layoutX="510.0" layoutY="323.0" text="8" />
+            <Label layoutX="574.0" layoutY="323.0" text="9" />
+            <Label layoutX="638.0" layoutY="323.0" text="10" />
+            <Label layoutX="63.0" layoutY="411.0" text="1" />
+            <Label layoutX="126.0" layoutY="411.0" text="2" />
+            <Label layoutX="190.0" layoutY="411.0" text="3" />
+            <Label layoutX="254.0" layoutY="411.0" text="4" />
+            <Label layoutX="318.0" layoutY="411.0" text="5" />
+            <Label layoutX="382.0" layoutY="411.0" text="6" />
+            <Label layoutX="446.0" layoutY="411.0" text="7" />
+            <Label layoutX="510.0" layoutY="411.0" text="8" />
+            <Label layoutX="574.0" layoutY="411.0" text="9" />
+            <Label layoutX="638.0" layoutY="411.0" text="10" />
+         </children>
+      </Pane>
+   </center>
+   <left>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="10.0" layoutY="46.0" text="A" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="123.0" text="B" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="110.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="201.0" text="C" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="195.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="286.0" text="D" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="280.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="374.0" text="E" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="368.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="1.0" text="A" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="40.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="1.0" layoutY="77.0" text="B" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="110.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutY="155.0" text="C" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="195.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutY="240.0" text="D" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="280.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+            <Label layoutY="328.0" text="E" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="368.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </right>
+   <bottom>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="392.0" style="-fx-background-color: #000;" text="Screen" textFill="WHITE" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Helvetica" size="25.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+         </padding>
+      </Label>
+   </bottom>
+</BorderPane>

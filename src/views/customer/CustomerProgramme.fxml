@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="616.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.customer.CustomerProgrammeController">
+   <children>
+      <DatePicker fx:id="dpDate" layoutX="144.0" layoutY="90.0" onAction="#filterByDatePicker" prefHeight="27.0" prefWidth="165.0" showWeekNumbers="false" />
+      <Label layoutX="97.0" layoutY="48.0" prefHeight="28.0" prefWidth="697.0" text="Search through our screenings and find the perfect one for you!">
+         <font>
+            <Font name="Helvetica Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnBookSelected" disable="true" layoutX="976.0" layoutY="559.0" mnemonicParsing="false" onAction="#showProgrammeMovie" prefHeight="27.0" prefWidth="114.0" text="Book selected" AnchorPane.rightAnchor="50.0">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font></Button>
+      <ListView fx:id="lvScreenings" layoutX="50.0" layoutY="191.0" prefHeight="359.0" prefWidth="1040.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <TextField fx:id="tfSearch" layoutX="144.0" layoutY="135.0" onAction="#search" prefHeight="27.0" prefWidth="165.0" promptText="Search by movie title..." />
+      <Button fx:id="btnSearchMovie" layoutX="321.0" layoutY="135.0" mnemonicParsing="false" onAction="#search" text="Search">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font></Button>
+      <Label layoutX="60.0" layoutY="90.0" prefHeight="28.0" prefWidth="68.0" text="When?">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="135.0" prefHeight="28.0" prefWidth="84.0" text="What?">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="choiceSort" layoutX="859.0" layoutY="159.0" prefHeight="27.0" prefWidth="90.0" AnchorPane.rightAnchor="50.0" />
+      <Label layoutX="801.0" layoutY="164.0" text="Sort by:" AnchorPane.rightAnchor="150.0" />
+      <ImageView fitHeight="27.0" fitWidth="31.0" layoutX="63.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/Search.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnClearSearch" layoutX="394.0" layoutY="136.0" mnemonicParsing="false" onAction="#clearSearch" text="Clear">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font></Button>
+      <Button fx:id="btnClearDate" layoutX="394.0" layoutY="90.0" mnemonicParsing="false" onAction="#clearDate" text="Clear">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font></Button>
+      <Button fx:id="btnSearchDate" layoutX="321.0" layoutY="90.0" mnemonicParsing="false" onAction="#filterByDatePicker" text="Search">
+         <font>
+            <Font name="Helvetica" size="13.0" />
+         </font>
+      </Button>
+      <Pane id="selection-bar" layoutY="9.0" prefHeight="10.0" prefWidth="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="616.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.customer.CustomerBookingSummaryController">
+   <children>
+      <Label layoutX="58.0" layoutY="40.0" prefHeight="43.0" prefWidth="381.0" text="Booking Summary">
+         <font>
+            <Font name="Helvetica" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="51.0" layoutY="104.0" prefHeight="4.0" prefWidth="900.0" />
+      <Label layoutX="58.0" layoutY="150.0" prefHeight="28.0" prefWidth="83.0" text="Movie:">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="200.0" prefHeight="28.0" prefWidth="69.0" text="Date:">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="250.0" prefHeight="28.0" prefWidth="98.0" text="Time:">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="539.0" layoutY="150.0" prefHeight="28.0" prefWidth="98.0" text="Seats:">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="539.0" layoutY="200.0" prefHeight="28.0" prefWidth="98.0" text="Price:">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="76.0" layoutX="50.0" layoutY="489.0" stroke="#3a66ad" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="494.0" />
+      <Label layoutX="60.0" layoutY="512.0" prefHeight="28.0" prefWidth="381.0" text="Print your ticket now and skip the queue!">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="391.0" prefHeight="28.0" prefWidth="730.0" text="We are looking forward to welcoming you at JavaCinema!">
+         <font>
+            <Font name="Helvetica" size="27.0" />
+         </font>
+      </Label>
+      <Button layoutX="918.0" layoutY="575.0" mnemonicParsing="false" onAction="#closeBookingSummary" prefHeight="27.0" prefWidth="62.0" text="Close" />
+      <Separator layoutX="58.0" layoutY="336.0" prefHeight="15.0" prefWidth="900.0" />
+      <Label fx:id="lblMovie" layoutX="141.0" layoutY="150.0" prefHeight="28.0" prefWidth="362.0" text="MovieName">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDate" layoutX="139.0" layoutY="200.0" prefHeight="28.0" prefWidth="362.0" text="DD/MM/YYYY">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblTime" layoutX="139.0" layoutY="250.0" prefHeight="28.0" prefWidth="362.0" text="HH:MM">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblSeats" layoutX="622.0" layoutY="150.0" prefHeight="28.0" prefWidth="362.0" text="1, 2">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblPrice" layoutX="622.0" layoutY="200.0" prefHeight="28.0" prefWidth="362.0" text="£0">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="439.0" layoutY="513.0" mnemonicParsing="false" onAction="#printTicket" text="Print Ticket" />
+      <Label layoutX="539.0" layoutY="250.0" prefHeight="28.0" prefWidth="98.0" text="Room:">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="622.0" layoutY="250.0" prefHeight="28.0" prefWidth="98.0" text="1">
+         <font>
+            <Font name="Helvetica" size="20.0" />
+         </font>
+      </Label>
+      <Pane id="selection-bar" layoutX="600.0" layoutY="5.0" prefHeight="10.0" prefWidth="500.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="323.0" prefWidth="285.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.shared.LoginController" id="login-background">
+   <children>
+      <TextField fx:id="tfUsername" layoutX="55.0" layoutY="182.0" prefHeight="27.0" prefWidth="181.0" promptText="Username" />
+      <PasswordField fx:id="pfPassword" layoutX="55.0" layoutY="215.0" prefHeight="27.0" prefWidth="181.0" promptText="Password" />
+      <Button fx:id="btnLogin" defaultButton="true" layoutX="74.0" layoutY="262.0" mnemonicParsing="false" onAction="#login" prefHeight="27.0" prefWidth="67.0" text="Log In" />
+      <Button fx:id="btnSignup" layoutX="149.0" layoutY="262.0" mnemonicParsing="false" onAction="#signup" text="Sign Up" />
+      <Label fx:id="lblWarning" layoutX="56.0" layoutY="165.0" textFill="BLACK">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="111.0" text="JavaCinema" textFill="#575757">
+         <font>
+            <Font name="Helvetica" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imageLogo" fitHeight="72.0" fitWidth="87.0" layoutX="109.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
